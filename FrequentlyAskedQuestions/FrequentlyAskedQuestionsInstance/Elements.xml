@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Frequently Asked Questions" OnQuickLaunch="TRUE" TemplateType="10010" Url="Lists/FAQs" Description="Frequently Asked Questions list">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Title">What is AngularJS?</Field>
+          <Field Name="FAQAnswer">AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.&lt;br/&gt;Angular is what HTML would have been had it been designed for applications. HTML is a great declarative language for static documents. It does not contain much in the way of creating applications, and as a result building web applications is an exercise in what do I have to do to trick the browser into doing what I want?</Field>
+          <Field Name="FAQSortOrder">1</Field>
+          <Field Name="FAQPages">Angular</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Title">What are AngularJS Templates?</Field>
+          <Field Name="FAQAnswer">In Angular, templates are written with HTML that contains Angular-specific elements and attributes. Angular combines the template with information from the model and controller to render the dynamic view that a user sees in the browser.</Field>
+          <Field Name="FAQSortOrder">2</Field>
+          <Field Name="FAQPages">Angular</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Title">What is SharePoint Online?</Field>
+          <Field Name="FAQAnswer">SharePoint Online delivers the powerful features of SharePoint without the associated overhead of managing the infrastructure on your own. Flexible management options ensure that you still retain the control you need to meet the compliance requirements of your organization. You can purchase SharePoint in the cloud as a standalone offering or as part of an Office 365 suite, where you can also get access to Exchange, Lync, the Office clients, and web apps.</Field>
+          <Field Name="FAQSortOrder">1</Field>
+          <Field Name="FAQPages">SharePoint</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="Title">How easy is it to setup a SharePoint environment online?</Field>
+          <Field Name="FAQAnswer">You can get set up in virtually no time! The powerful admin console allows your organization to easily manage capabilities, policies, and security for all the content and features within SharePoint. Automated maintenance of the servers ensures that you are always up to date with the latest features with minimal downtime.</Field>
+          <Field Name="FAQSortOrder">2</Field>
+          <Field Name="FAQPages">SharePoint</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="Title">What are scopes?</Field>
+          <Field Name="FAQAnswer">A scope is an object that refers to the application model. It is an execution context for expressions. Scopes are arranged in hierarchical structure which mimic the DOM structure of the application. Scopes can watch expressions and propagate events.</Field>
+          <Field Name="FAQSortOrder">3</Field>
+          <Field Name="FAQPages">Angular</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">6</Field>
+          <Field Name="Title">What is the Office 365 FastTrack and adoption offer?</Field>
+          <Field Name="FAQAnswer">FastTrack is the onboarding service benefit included for qualified Office 365 customers. Microsoft onboarding experts will provide personalized assistance ensuring the service is ready to use company-wide.</Field>
+          <Field Name="FAQSortOrder">3</Field>
+          <Field Name="FAQPages">SharePoint</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">7</Field>
+          <Field Name="Title">What is Yammer?</Field>
+          <Field Name="FAQAnswer">Yammer is a private social network that helps employees collaborate across departments, locations, and business apps.</Field>
+          <Field Name="FAQSortOrder">4</Field>
+          <Field Name="FAQPages">SharePoint</Field>
+          <Field Name="_ModerationStatus">0</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

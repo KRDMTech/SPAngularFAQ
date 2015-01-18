@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="523c9239-7637-492e-bd87-a5fd513f3942" 
+        solutionId="523c9239-7637-492e-bd87-a5fd513f3942" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPAngularFAQ"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="5c901a40-3dcc-42a5-96a5-76d29ef2781d" />
+  </features>
+</package>

@@ -1,0 +1,13 @@
+﻿<div class="errorMessage" data-ng-show="isError">
+    <span id="lblErrorMessage" class="text-danger" data-ng-bind="errorMessage"></span>
+</div>
+<section>
+    <h2>Welcome to the SharePoint AngularJS Frequently Asked Questions app!</h2>
+    <div data-ng-hide="faqItems">Please choose a link under FAQ from the menu on the left to proceed</div>
+    <div data-ng-repeat="faqItem in faqItems">
+        <div class="faqDisplay">
+            <h3 class="title" data-ng-class="faqItem.Show == true ? 'active' : ''" data-ng-click="faqItem.Show = !faqItem.Show" data-ng-bind-html="faqItem.question"></h3>
+            <div class="content" data-ng-show="faqItem.Show" data-ng-bind-html="faqItem.answer"></div>
+        </div>
+    </div>
+</section>

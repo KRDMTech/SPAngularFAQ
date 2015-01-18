@@ -1,0 +1,64 @@
+﻿/* Place custom styles below */
+#wrapper {
+    margin-top: 70px;
+}
+.leftNav{
+	width: 100%;
+	background-color: #fff;
+	border-top: 4px solid #bc8ebe;	
+
+}
+.leftNav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+.leftNav ul li {
+	border-bottom: 1px solid #cccccc;
+	padding: 5px 5%;
+	width: 100%;	
+}
+.leftNav ul li a{
+	font-weight: 600;	
+	color: #bc8ebe;
+	padding: 5px 5%;
+	width: 90%;
+	display: block;
+    padding-left: 10px;
+}
+.leftNav ul li a:hover,
+.leftNav ul li a.active{
+	color: #252525;
+}
+.errorMessage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Accordion styles */
+.faqDisplay h3 {
+    background: #3fb7f3 url(../Images/iconPlus.png) no-repeat 8px center;
+    float: left;
+    width: 100%;
+    padding: 8px 2% 8px 6.5%;
+    font: bold 13px verdana;
+    margin: 0 0 10px;
+    cursor: pointer;
+    color: #1c1c1c;
+}
+.faqDisplay h3.active{
+	background-image: url(../Images/iconMinus.png);	
+}
+.faqDisplay div.content {
+    float: left;
+    width: 100%;
+    padding: 10px 3%;
+    background: #ddf3fe;
+    margin: -10px 0 10px;
+    font: normal 13px verdana;
+    line-height: 18px;
+}
+h2 {
+    border-bottom: 2px solid #3fb7f3;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}

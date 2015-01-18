@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\LeftNavTemplate.html" Url="Pages/LeftNavTemplate.html" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\FAQTemplate.html" Url="Pages/FAQTemplate.html" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+  </Module>
+</Elements>
